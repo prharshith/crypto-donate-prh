@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <title>Bitcoin Donate</title>
+    <title>Ethereum Donate</title>
 </head>
 <body>
 
@@ -17,17 +17,17 @@
 
         <a href="/index.html">HOME</a> <br><br><br>
 
-    <h2>Donate Bitcoin [BTC]</h2>
-    <p>Donate using BTC Crypto.<br><b style="color: red;"> Always be careful while making transactions, sending crypto to a wrong address or wallet can lead to lost funds!</b></p>
-<span>you are about to donate to a newer BTC address. <b style="color: red;">DO NOT SEND BTC FROM LEGACY ADDRESS. SCROLL BELOW FOR LEGACY ADDRESS!!</b></span>
+    <h2>Donate Ethereum [ETH]</h2>
+    <p>Donate using ETH Crypto.<br><b style="color: red;"> Always be careful while making transactions, sending crypto to a wrong address or wallet can lead to lost funds!</b></p>
+<span>you are about to donate to a ETH address. <b style="color: red;">DO NOT SEND ANY OTHER CRYPTO TO THIS ADDRESS!</b></span>
 
 <br><br><br>
-<img src="/crypto-images/btc.png" width="200" height="200"><br>
-<h3>Newer Native SegWit (P2WPKH) Address</h3>
+<img src="/crypto-images/ethereum.png" width="200" height="200"><br>
+<h3>ETH Address</h3>
 
-<textarea id="textarea" readonly>bc1q30jtu823mz00zuznd6868wr3nm7j5tgw6lsdkj</textarea>
+<textarea id="textarea" readonly>0xC2161518a7f9D80460DD24706eb378C1B1A14A4A</textarea>
 <br><br>
-<button class="button-86" role="button" onclick="myFunction()">Copy BTC Address</button>
+<button class="button-86" role="button" onclick="myFunction()">Copy ETH Address</button>
 
 
 
@@ -44,42 +44,10 @@
       navigator.clipboard.writeText(copyText.value);
       
       // Alert the copied text
-      alert("Copied the BTC Address: " + copyText.value);
+      alert("Copied the ETH Address: " + copyText.value);
     }
     </script>
 
-<br><br><br><br><br><br><br><br>
-
-<h2>Donate Bitcoin Legacy [BTC]</h2>
-    <p>Donate using BTC Legacy.<br><b style="color: red;"> Always be careful while making transactions, sending crypto to a wrong address or wallet can lead to lost funds!</b></p>
-<span>you are about to donate to a Legacy BTC address. <b style="color: red;">DO NOT SEND BTC FROM NEW ADDRESS. SCROLL ABOVE FOR NEW ADDRESS!!</b></span>
-
-<br><br><br>
-<img src="/crypto-images/btc-legacy.png" width="200" height="200"><br>
-<h3>Legacy (P2PKH) Address</h3>
-
-<textarea id="textarea1" readonly>1StykkQbnSr2uxaAyZECSLAvfNHZHG1W2</textarea>
-<br><br>
-<button class="button-86" role="button" onclick="myFunction1()">Copy BTC Address</button>
-
-
-<script>
-    function myFunction1() {
-      // Get the text field
-      var copyText = document.getElementById("textarea1");
-    
-      // Select the text field
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); // For mobile devices
-    
-      // Copy the text inside the text field
-      navigator.clipboard.writeText(copyText.value);
-      
-      // Alert the copied text
-      alert("Copied the BTC Address: " + copyText.value);
-    }
-    </script>
-<br><br>
 </center>
 <style>
     
